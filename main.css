@@ -1,45 +1,158 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: url("fonts/cocogoose-webfont.woff2") format("woff2"), url("fonts/cocogoose-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body,
+header,
+main,
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.default-content {
+  height: 15rem;
+}
+.zero {
+  padding: 0;
+}
+.center-text {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-flow: wrap;
+}
+
+.nowrap {
+  flex-flow: nowrap;
+}
+
+.horizontal-center {
+  justify-content: center;
+}
+
+.vertical-center {
+  align-items: center;
+  align-content: center;
+}
+
 .background-dark {
-	background-color: #272a31;
-	color: white;
+  background-color: #272a31;
+  color: white;
 }
+
 .background-light {
-	background-color: white;
+  background-color: white;
 }
+
 .dark {
-	color: #272a31;
+  color: #272a31;
 }
+
 .red {
-	color: #ec5242;
+  color: #ec5242;
 }
+
 .grey {
-	color: #d3d3d3;
+  color: #d3d3d3;
 }
+
+.coco {
+  font-family: "Cocogoose";
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.bold {
+  font-weight: bolder;
+}
+.paddings {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.span-margins {
+  margin: 10px;
+}
+.partners {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footer-paddings {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 header div {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
+  justify-content: flex-end;
 }
+
 header div a {
-	margin: 10px 20px;
-	color: white;
-	font-size: 24px;
-	text-decoration: none;
+  margin: 10px 20px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
 }
+
 .lg {
-	height: 50px;
+  height: 30px;
+  font-family: "Cocogoose";
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 20px;
 }
+
+.lg .left {
+  font-family: "Cocogoose";
+  font-size: 20px;
+  color: #ec5242;
+}
+
+.lg .right {
+  font-family: "Cocogoose";
+  color: #272a31;
+  font-size: 20px;
+}
+
 header nav {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	height: 100px;
+  justify-content: space-between;
+  height: 100px;
 }
+
 header span a {
-	margin: 10px;
-	color: #272a31;
-	font-size: 16px;
-	text-decoration: none;
+  margin: 10px;
+  color: #272a31;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+header span a:hover,
+header span a:active,
+header span a:focus {
+  color: #ec5242;
+}
+.shadow {
+  box-shadow: 10px 10px 8px #888888;
 }
