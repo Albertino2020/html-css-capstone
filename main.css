@@ -15,8 +15,31 @@ footer {
   padding: 0;
   margin: 0;
 }
+main {
+  background-image: url(/images/background1.png);
+}
 .default-content {
   height: 15rem;
+}
+.width-60 {
+  width: 60%;
+  text-align: left;
+}
+.wellcome-main-block {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin: 0;
+}
+.wellcome-block-top {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.wellcome-block-bottom {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 0;
 }
 .zero {
   padding: 0;
@@ -149,10 +172,10 @@ header span a {
 }
 
 header span a:hover,
-header span a:active,
-header span a:focus {
+header span a:focus,
+header span a:active {
   color: #ec5242;
 }
 .shadow {
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 8px #d3d3d3;
 }
