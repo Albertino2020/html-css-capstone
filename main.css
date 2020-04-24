@@ -116,7 +116,9 @@ col {
 .grey {
   color: #d3d3d3;
 }
-
+.white {
+  color: white;
+}
 .coco {
   font-family: "Cocogoose";
 }
@@ -198,4 +200,25 @@ header span a:active {
 }
 .shadow {
   box-shadow: 10px 10px 8px #d3d3d3;
+}
+
+.product-box {
+  width: 20%;
+  background-color: #5b5b5e;
+  margin: 20px 1px;
+  padding: 20px;
+}
+.product-box img {
+  width: 50%;
+}
+.product-box h3,
+p {
+  font-weight: bolder;
+}
+
+.product-box:hover,
+.product-box:active,
+.product-box:focus {
+  border: 2px solid white;
+  text-decoration: none;
 }
