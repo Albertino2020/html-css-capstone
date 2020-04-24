@@ -21,14 +21,29 @@ main {
 .default-content {
   height: 15rem;
 }
-.width-60 {
-  width: 60%;
+.width-80 {
+  width: 80%;
   text-align: left;
 }
 .wellcome-main-block {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bolder;
   margin: 0;
+}
+.font-effect {
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right top,
+    #f18d57 0%,
+    #ec5242 25%,
+    #b22517 40%,
+    #f18d57 50%,
+    #b22517 60%,
+    #f18d57 70%,
+    #ec5242 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .wellcome-block-top {
   font-size: 2rem;
@@ -36,10 +51,15 @@ main {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-.wellcome-block-bottom {
-  width: 50%;
+.text-block {
+  font-size: 1rem;
   padding: 20px 20px;
   margin: 0;
+}
+.text-heading {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
 .zero {
   padding: 0;
