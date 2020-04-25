@@ -62,7 +62,9 @@ main {
   padding: 0;
 }
 .zero {
-  padding: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 0.5rem;
 }
 .center-text {
   text-align: center;
@@ -232,4 +234,14 @@ p {
 }
 .none:visited {
   text-decoration: none;
+}
+.member {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+.member img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
