@@ -18,6 +18,12 @@ footer {
 main {
   background-image: url(/images/background1.png);
 }
+main * {
+  background-image: none;
+}
+main .show-image {
+  background-image: inherit;
+}
 .default-content {
   height: 15rem;
 }
@@ -106,6 +112,9 @@ col {
 .background-light {
   background-color: white;
 }
+.background-red {
+  background-color: #ec5242;
+}
 
 .dark {
   color: #272a31;
@@ -158,14 +167,17 @@ header div {
 header div a {
   margin: 10px 20px;
   color: white;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: bolder;
   text-decoration: none;
 }
 
 .lg {
+  width: 300px;
   height: 30px;
   font-family: "Cocogoose";
   border: 2px solid #d3d3d3;
+  background-color: white;
   border-radius: 10px;
   padding: 10px;
   margin-right: 20px;
@@ -245,4 +257,44 @@ p {
   height: 100px;
   margin: 10px;
   box-shadow: -35px -35px 0 -20px #d3d3d3;
+}
+
+.button-wrapper {
+  justify-content: center;
+}
+
+.button {
+  transition-duration: 0.4s;
+  width: 250px;
+  height: 50px;
+  padding: auto;
+  font-size: 1rem;
+  margin: 50px auto 100px auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.button:hover {
+  background-color: #d3d3d3;
+  color: #272a31;
+}
+#about {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+}
+#about h1 {
+  font-size: 2rem;
+}
+.margins {
+  margin: auto 150px;
+  padding: 20px;
+}
+.auto {
+  margin: auto;
+  background-color: white;
+}
+.white-back {
+  background-color: white;
+  margin: auto 235px;
 }
