@@ -294,14 +294,31 @@ p {
 }
 .auto {
   margin: auto;
-  background-color: white;
+  /* background-color: white; */
 }
 .white-back {
   background-color: white;
   margin: auto 235px;
 }
 .maker-taker {
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(10, 1fr);
+  margin: auto;
+}
+.grid-header {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.grid-cell {
+  border: 1px solid #d3d3d3;
+  padding: 5px;
+}
+.description {
+  width: 50%;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 0 grey;
 }
