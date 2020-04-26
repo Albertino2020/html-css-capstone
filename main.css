@@ -4,6 +4,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile .expand {
+    display: none;
+  }
+  .mobile:hover .expand,
+  .mobile:active .expand,
+  .mobile:focus .expand {
+    display: block;
+  }
+}
+@media screen and (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+}
 
 html,
 body,
@@ -223,13 +241,14 @@ header span a:active {
   background-color: #5b5b5e;
   margin: 20px 1px;
   padding: 20px;
+  text-decoration: none;
 }
 .product-box img {
   width: 50%;
   height: 50px;
 }
 .product-box h3,
-p {
+.product-box p {
   font-weight: bolder;
 }
 
@@ -306,6 +325,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(10, 1fr);
   margin: auto;
+  box-shadow: 0 0 10px 10px rgb(167, 165, 165);
 }
 .grid-header {
   background-color: whitesmoke;
@@ -321,4 +341,71 @@ p {
   padding: 10px;
   margin-bottom: 20px;
   box-shadow: 0 0 5px 0 grey;
+}
+.arrow-box {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  margin: 20px auto;
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+.rotate {
+  transform: rotate(-45deg);
+}
+.deposit-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+}
+.form-grid {
+  display: grid;
+  margin: 40px auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 3rem 3rem repeat(5, 1fr);
+  grid-gap: 1px;
+  border: 1px solid black;
+  box-shadow: 0 10px 10px grey;
+}
+.form-grid span {
+  padding: 10px 0;
+  font-weight: bolder;
+}
+.form-grid .product-box {
+  width: 80%;
+  margin: 5px auto;
+  padding: auto;
+}
+.form-grid div,
+.form-grid h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.form-grid .cell {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+.form-grid .cell:hover,
+.form-grid .cell:active,
+.form-grid .cell:focus {
+  border: 1px solid black;
+  background-color: rgb(250, 217, 217);
+  text-decoration: none;
+}
+.form-grid .product-box img {
+  width: 40%;
+}
+.form-grid button {
+  margin-right: 0;
+}
+.split span,
+.split div {
+  margin: 10px;
 }
