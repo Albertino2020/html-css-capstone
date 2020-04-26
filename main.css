@@ -49,6 +49,8 @@ main .show-image {
     #ec5242 80%
   );
   -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .wellcome-block-top {
