@@ -85,6 +85,26 @@
   #mob {
     padding: 20px;
   }
+  .form-grid {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 20% 30% 20% !important;
+  }
+  .product-box {
+    padding: 5px;
+    height: 150px;
+    font-size: 1rem;
+    text-justify: center;
+    margin: 0;
+  }
+  .product-box h3 {
+    padding: auto;
+    font-size: 1rem;
+
+    margin: o;
+  }
 }
 @media screen and (min-width: 769px) {
   .mobile {
@@ -355,7 +375,7 @@ header span a:active {
 
 .button {
   transition-duration: 0.4s;
-  width: 250px;
+  width: 200px;
   height: 50px;
   padding: auto;
   font-size: 1rem;
