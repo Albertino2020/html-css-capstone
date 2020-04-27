@@ -14,8 +14,8 @@
 </head>
 
 <body>
-	<header>
-		<div class="background-dark paddings flex row">
+	<header Class="desktop">
+		<div class="desktop background-dark paddings flex row">
 			<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
 			<a href="#"><span><i class="fab fa-twitter"></i></span></a>
 			<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
@@ -40,6 +40,35 @@
 				<a href="blog.html">Blog</a>
 			</span>
 		</nav>
+	</header>
+
+	<header class="mobile">
+		<span class="pager">
+			<i class="fas fa-bars"></i>
+		</span>
+		<div class="expand">
+			<div class="background-dark flex row">
+				<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+				<a href="#"><span><i class="fab fa-twitter"></i></span></a>
+				<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+				<a href="#"><span><i class="fab fa-youtube"></i></span></a>
+				<a class="lato white" href="#"><span>Create Account</span></a>
+				<a class="lato white" href="#"><span>Log In</span></a>
+			</div>
+
+			<nav class="background-light shadow ">
+				<span class="lato font-size-14 flex row wrap vertical-center horizontal-center">
+					<a href="index.html">Home</a>
+					<a href="about.html">About Us</a>
+					<a href="services.html">Services</a>
+					<a href="pricing.html">Pricing Tables</a>
+					<a href="faq.html">FAQ</a>
+					<a href="support.html">Support</a>
+					<a href="contacts.html">Contact Us</a>
+					<a href="blog.html">Blog</a>
+				</span>
+			</nav>
+		</div>
 	</header>
 
 	<main class="background-light horizontal-center vertical-center">
@@ -206,9 +235,22 @@
 
 	</main>
 
-	<footer class="footer-paddings">
+	<footer class=" desktop footer-paddings">
 
 		<div class="background-dark paddings footer-paddings flex row vertical-center">
+			<div class="lg flex row vertical-center horizontal-center">
+				<span class="left">Globimiosótis™</span>
+				<span class="right">Blockchain</span>
+			</div>
+			<span class="lato font-size-14 bold span-margins">
+				&copy 2020 Globimiosótis™ International Business Agency Ltd. All rights reserved.
+				A European private limited company and registered trademark.
+			</span>
+		</div>
+	</footer>
+	<footer class="mobile">
+
+		<div class="background-dark flex row vertical-center">
 			<div class="lg flex row vertical-center horizontal-center">
 				<span class="left">Globimiosótis™</span>
 				<span class="right">Blockchain</span>
