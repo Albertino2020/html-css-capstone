@@ -1,57 +1,44 @@
-# Project Name
+# CSS-HTML CAPSTONE PROJECT
 
-> One paragraph statement about the project.
+> This is my HTML & CSS Capstone Project from the Microverse Man Curriculum. It is based on an online website for a conference. I followed the given design guidelines of the website concerning  colors, typographies (font face, size and weight), layout (composition and space between elements), for the two given screen sizes (mobile: up to 768px; and desktop: from 768px), and I built an investment management blockchain web page for Globimiosótis™ --a Portuguese private limited company and trademark, founded with the purpose of advising other companies that have plans to expand or internationalize their businesses on the search and identification of viable business ventures and investment opportunities, both locally and overseas.
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-01.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-18.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-29.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-42.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-55.png)
+![screenshot](/home/albertino/html-css-capstone/images/screenshots/Screenshot from 2020-04-27 06-45-03.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-45-24.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-25.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-35.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-44.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-52.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-47-15.png)
+![screenshot](images/screenshots/Screenshot from 2020-04-27 06-47-53.png)
 
-Additional description about the project and its features.
+This project consists of a website of eight pages, where only four of which contain content, by way of illustration, using real information from an existing company. Some information is only figurative.
+
+The website was built with responsiveness, automatically adapting to both small and large screens. It was built from scratch using CSS and HTML, without using Frameworks. With the exception of images and some icons that contain other colors.
+The use of colors and fonts was restricted to the three colors and two fonts required by Microverse. 
+Regarding the layout, a greater approximation to the model presented was sought, but due to the need for customization, fulfilling the objectives of the project, some contents take the form of the author's creativity..
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/html-css-capstone/3360c810e9b70ec2e76bb565b2ad861b1cac8be8/index.html)
 
 
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Albertino2020(https://github.com/Albertino2020)
+- Twitter: [@albertino2050(https://twitter.com/albertino20150)
+- Linkedin: [Albertino Francisco, PhD](https://linkedin.com/boamorte)
 
 ## 🤝 Contributing
 
@@ -65,9 +52,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This project was inspired by the website design of the 2015 Creative Commons Conference in Seoul, South Korea, which was designed and built by Cindy Shin,
+GUI & Graphic Designer (website: http://www.cindyisworking.com), to whom I express my public thanks. 
+
 
 ## 📝 License
 
