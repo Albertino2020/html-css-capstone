@@ -75,6 +75,16 @@
   .lg span {
     font-size: 0.85rem !important;
   }
+  .mobile .abt {
+    font-size: 1.25rem;
+    margin: 20px;
+  }
+  .w-b {
+    background-color: white;
+  }
+  #mob {
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 769px) {
   .mobile {
