@@ -2,19 +2,11 @@
 
 > This is my HTML & CSS Capstone Project from the Microverse Man Curriculum. It is based on an online website for a conference. I followed the given design guidelines of the website concerning  colors, typographies (font face, size and weight), layout (composition and space between elements), for the two given screen sizes (mobile: up to 768px; and desktop: from 768px), and I built an investment management blockchain web page for Globimiosótis™ --a Portuguese private limited company and trademark, founded with the purpose of advising other companies that have plans to expand or internationalize their businesses on the search and identification of viable business ventures and investment opportunities, both locally and overseas.
 
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-01.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-18.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-29.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-42.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-44-55.png)
-![screenshot](/home/albertino/html-css-capstone/images/screenshots/Screenshot from 2020-04-27 06-45-03.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-45-24.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-25.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-35.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-44.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-46-52.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-47-15.png)
-![screenshot](images/screenshots/Screenshot from 2020-04-27 06-47-53.png)
+![screenshot](images/screenshots/1.png)
+![screenshot](images/screenshots/2.png)
+![screenshot](images/screenshots/3.png)
+![screenshot](images/screenshots/4.png)
+![screenshot](images/screenshots/5.png)
 
 This project consists of a website of eight pages, where only four of which contain content, by way of illustration, using real information from an existing company. Some information is only figurative.
 
