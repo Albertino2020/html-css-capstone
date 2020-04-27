@@ -14,7 +14,62 @@
   .mobile:hover .expand,
   .mobile:active .expand,
   .mobile:focus .expand {
+    top: 0;
+    left: 0;
+    position: absolute;
     display: block;
+  }
+  .mobile:active .pager,
+  .mobile:focus .pager {
+    display: none;
+  }
+  .mobile > .pager {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: grey;
+    margin: 20px auto 0 20px;
+    padding: 0;
+  }
+  .mobile nav span a {
+    border: 1px solid red;
+    background: whitesmoke;
+    padding: 10px;
+    margin: 0;
+  }
+  .mobile .wellcome-block-top {
+    font-size: 1.25rem;
+    padding: 20px auto;
+    margin: auto 20px;
+  }
+  .mobile .wellcome-main-block {
+    font-size: 2.5rem;
+    padding: 20px auto;
+    margin: auto 20px;
+  }
+  .mobile .text-heading {
+    font-size: 1.5rem;
+    margin: auto 30px;
+  }
+  .mobile .product-box {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .mobile .product-box img {
+    width: 20%;
+  }
+  .mobile .product-box h3 {
+    width: 30%;
+    margin: auto 20px;
+  }
+
+  .member {
+    box-sizing: border-box;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px;
+  }
+  .lg {
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -171,7 +226,7 @@ col {
   margin: 10px;
 }
 .partners {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
@@ -205,7 +260,7 @@ header div a {
 
 .lg .left {
   font-family: "Cocogoose";
-  font-size: 20px;
+  font-size: 1.25px;
   color: #ec5242;
 }
 
