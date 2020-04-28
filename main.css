@@ -77,6 +77,7 @@
   .text-heading {
     font-size: 1.5rem;
     margin: auto 30px;
+    margin:
   }
   .product-box {
     box-sizing: border-box;
@@ -182,6 +183,11 @@
     font-size: 1.1rem;
     margin: auto;
   }
+  .wellcome-main-block {
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 0;
+  }
 }
 
 html,
@@ -217,11 +223,7 @@ ul li * {
   width: 80%;
   text-align: left;
 }
-.wellcome-main-block {
-  font-size: 5rem;
-  font-weight: bolder;
-  margin: 0;
-}
+
 .font-effect {
   text-transform: uppercase;
   background: linear-gradient(
