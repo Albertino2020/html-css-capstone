@@ -5,59 +5,87 @@
   font-style: normal;
 }
 @media screen and (max-width: 768px) {
-  .desktop {
-    display: none;
-  }
-  .mobile .expand {
-    display: none;
-  }
-  .mobile:hover .expand,
-  .mobile:active .expand,
-  .mobile:focus .expand {
+  .media {
+    box-sizing: border-box;
+    background-image: url(/images/background1.png);
     top: 0;
     left: 0;
-    position: absolute;
-    display: block;
+    width: 100%;
+    margin: 0 0 auto 0;
+    padding: 0;
   }
-  .mobile:active .pager,
-  .mobile:focus .pager {
+  .media:hover .pager,
+  .media:active .pager,
+  .media:focus .pager {
     display: none;
   }
-  .mobile > .pager {
+  .expand {
+    display: none;
+  }
+  .media:hover .expand,
+  .media:active .expand,
+  .media:focus .expand {
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: block;
+  }
+
+  .xs {
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    display: none;
+  }
+  nav .xm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .paddings {
+    padding: auto;
+  }
+  .pager {
     font-size: 4rem;
     font-weight: bolder;
     color: grey;
     margin: 20px auto 0 20px;
     padding: 0;
   }
-  .mobile nav span a {
-    border: 1px solid red;
-    background: whitesmoke;
-    padding: 10px;
+
+  nav ul {
     margin: 0;
   }
-  .mobile .wellcome-block-top {
+
+  nav ul li {
+    border: 1px solid #5b5b5e;
+    background: whitesmoke;
+    padding: 5px;
+    margin: 0;
+  }
+  .wellcome-block-top {
     font-size: 1.25rem;
     padding: 20px auto;
     margin: auto 20px;
   }
-  .mobile .wellcome-main-block {
+  .wellcome-main-block {
     font-size: 2.5rem;
     padding: 20px auto;
     margin: auto 20px;
   }
-  .mobile .text-heading {
+  .text-heading {
     font-size: 1.5rem;
     margin: auto 30px;
   }
-  .mobile .product-box {
+  .product-box {
     box-sizing: border-box;
     width: 100%;
   }
-  .mobile .product-box img {
+  .product-box img {
     width: 20%;
   }
-  .mobile .product-box h3 {
+  .product-box h3 {
     width: 30%;
     margin: auto 20px;
   }
@@ -69,13 +97,17 @@
     padding: 20px;
   }
   .lg {
-    width: 150px;
+    box-sizing: border-box;
     margin: 10px;
+    padding: 10px;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
   }
   .lg span {
-    font-size: 0.85rem !important;
+    font-size: 0.85rem;
   }
-  .mobile .abt {
+  .abt {
     font-size: 1.25rem;
     margin: 20px;
   }
@@ -102,13 +134,53 @@
   .product-box h3 {
     padding: auto;
     font-size: 1rem;
-
     margin: o;
   }
 }
 @media screen and (min-width: 769px) {
-  .mobile {
+  .pager {
     display: none;
+  }
+  .paddings {
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header nav {
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  header span a {
+    margin: 10px;
+    color: #272a31;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .lg {
+    width: 300px;
+    height: 30px;
+    font-family: "Cocogoose";
+    border: 2px solid #d3d3d3;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+  .lg .left {
+    font-family: "Cocogoose";
+    font-size: 1.25rem;
+    color: #ec5242;
+
+    margin: auto;
+  }
+
+  .lg .right {
+    font-family: "Cocogoose";
+    color: #272a31;
+    font-size: 1.1rem;
+    margin: auto;
   }
 }
 
@@ -128,7 +200,14 @@ main {
 main * {
   background-image: none;
 }
-main .show-image {
+ul li * {
+  margin: 5px;
+  color: inherit;
+  font: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.show-image {
   background-image: inherit;
 }
 .default-content {
@@ -207,7 +286,22 @@ col {
 .horizontal-center {
   justify-content: center;
 }
-
+.space-between {
+  justify-content: space-between;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.space-around {
+  justify-content: space-around;
+}
+.no-decoration {
+  text-decoration: none;
+  list-style: none;
+}
 .vertical-center {
   align-items: center;
   align-content: center;
@@ -247,15 +341,12 @@ col {
   font-family: "Lato", sans-serif;
 }
 .font-size-14 {
-  font-size: 14px;
+  font-size: 0.85rem;
 }
 .bold {
   font-weight: bolder;
 }
-.paddings {
-  padding-left: 150px;
-  padding-right: 150px;
-}
+
 .span-margins {
   margin: 10px;
 }
@@ -269,57 +360,27 @@ col {
   padding-bottom: 20px;
 }
 
-header div {
+header .expand div {
   justify-content: flex-end;
 }
 
-header div a {
+header .expand div a {
   margin: 10px 20px;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bolder;
   text-decoration: none;
 }
 
-.lg {
-  width: 300px;
-  height: 30px;
-  font-family: "Cocogoose";
-  border: 2px solid #d3d3d3;
+nav ul li:hover,
+nav ul li:focus,
+nav ul li:active,
+nav ul li:visited {
+  box-sizing: border-box;
+  color: #ec5242;
+  font-weight: bolder;
   background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  margin-right: 20px;
-}
-
-.lg .left {
-  font-family: "Cocogoose";
-  font-size: 1.25rem;
-  color: #ec5242;
-}
-
-.lg .right {
-  font-family: "Cocogoose";
-  color: #272a31;
-  font-size: 1.1rem;
-}
-
-header nav {
-  justify-content: space-between;
-  height: 100px;
-}
-
-header span a {
-  margin: 10px;
-  color: #272a31;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-header span a:hover,
-header span a:focus,
-header span a:active {
-  color: #ec5242;
+  border: 1px solid #ec5242;
 }
 .shadow {
   box-shadow: 10px 10px 8px #d3d3d3;
@@ -397,7 +458,7 @@ header span a:active {
   font-size: 2rem;
 }
 .margins {
-  margin: auto 150px;
+  margin: auto 10%;
   padding: 20px;
 }
 .auto {
