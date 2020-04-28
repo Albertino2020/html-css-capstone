@@ -77,7 +77,6 @@
   .text-heading {
     font-size: 1.5rem;
     margin: auto 30px;
-    margin: ;
   }
   .product-box {
     box-sizing: border-box;
@@ -477,7 +476,7 @@ nav ul li:visited {
   font-size: 2rem;
 }
 .margins {
-  margin: auto 10%;
+  margin: 20px 10%;
   padding: 20px;
 }
 .auto {
@@ -485,7 +484,6 @@ nav ul li:visited {
 }
 .white-back {
   background-color: white;
-  margin: auto 235px;
 }
 .maker-taker {
   width: 80%;
