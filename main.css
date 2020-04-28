@@ -44,7 +44,7 @@
     justify-content: center;
   }
   .paddings {
-    padding: auto;
+    padding: 20px;
   }
   .pager {
     font-size: 4rem;
@@ -77,7 +77,7 @@
   .text-heading {
     font-size: 1.5rem;
     margin: auto 30px;
-    margin:
+    margin: ;
   }
   .product-box {
     box-sizing: border-box;
@@ -126,8 +126,13 @@
     grid-template-columns: 30% 20% 30% 20% !important;
   }
   .product-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 5px;
-    height: 150px;
+    background-color: #5b5b5e;
+    border: 1px solid #272a31;
     font-size: 1rem;
     text-justify: center;
     margin: 0;
@@ -135,7 +140,14 @@
   .product-box h3 {
     padding: auto;
     font-size: 1rem;
-    margin: o;
+    margin: 0;
+  }
+  .product-box img {
+    margin: 0;
+    padding: 0;
+  }
+  .row-col {
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 769px) {
@@ -187,6 +199,22 @@
     font-size: 5rem;
     font-weight: bolder;
     margin: 0;
+  }
+  .row-col {
+    flex-direction: row;
+  }
+  .product-box {
+    box-sizing: border-box;
+    width: 20%;
+    background-color: #5b5b5e;
+    margin: 20px 1px;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .product-box img {
+    width: 50%;
+    height: 50px;
   }
 }
 
@@ -388,17 +416,6 @@ nav ul li:visited {
   box-shadow: 10px 10px 8px #d3d3d3;
 }
 
-.product-box {
-  width: 20%;
-  background-color: #5b5b5e;
-  margin: 20px 1px;
-  padding: 20px;
-  text-decoration: none;
-}
-.product-box img {
-  width: 50%;
-  height: 50px;
-}
 .product-box h3,
 .product-box p {
   font-weight: bolder;
