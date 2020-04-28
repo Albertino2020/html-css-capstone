@@ -66,13 +66,13 @@
   }
   .wellcome-block-top {
     font-size: 1.25rem;
-    padding: 20px auto;
-    margin: auto 20px;
+    padding: auto 20px;
+    margin: 0;
   }
   .wellcome-main-block {
     font-size: 2.5rem;
     padding: 20px auto;
-    margin: auto 20px;
+    margin: 0;
   }
   .text-heading {
     font-size: 1.5rem;
