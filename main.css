@@ -294,6 +294,11 @@ p {
   text-justify: auto;
 }
 
+.lg * {
+font-weight: bolder !important;
+transform: scale(1,2);
+}
+
 main {
   background-image: url(/images/background1.png);
 }
@@ -657,6 +662,11 @@ nav ul li:visited {
 .product-box:focus {
   border: 2px solid white;
   text-decoration: none;
+}
+
+hr{
+  color: #ec5242;
+  width: 50px;
 }
 
 /* file ends here */
