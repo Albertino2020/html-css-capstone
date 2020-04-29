@@ -209,7 +209,7 @@
   .lg {
     width: 300px;
     height: 30px;
-    font-family: "Cocogoose" !important;
+    font-family: "Cocogoose", sans-serif;
     border: 2px solid #d3d3d3;
     background-color: white;
     border-radius: 10px;
@@ -218,9 +218,8 @@
   }
 
   .lg .left {
-    font-family: "Cocogoose" !important;
+    font-family: "Cocogoose", sans-serif;
     font-size: 1.25rem;
-    font-weight:bolder;
     color: #ec5242;
     margin: auto;
   }
@@ -438,7 +437,7 @@ col {
 }
 
 .coco {
-  font-family: 'Cocogoose' !important;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .lato {
