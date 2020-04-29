@@ -4,10 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .media {
     box-sizing: border-box;
-    background-image: url(/images/background1.png);
+    background-image: url(/images/blockchain.jpg);
     top: 0;
     left: 0;
     width: 100%;
@@ -35,6 +35,7 @@
     top: 0;
     left: 0;
     margin-top: 0;
+    margin-bottom: 0;
     display: none;
   }
   nav .xm {
@@ -49,7 +50,8 @@
   .pager {
     font-size: 4rem;
     font-weight: bolder;
-    color: grey;
+    background: transparent;
+    color: white;
     margin: 20px auto 0 20px;
     padding: 0;
   }
@@ -61,8 +63,13 @@
   nav ul li {
     border: 1px solid #5b5b5e;
     background: whitesmoke;
-    padding: 5px;
+    padding: 1.5px;
     margin: 0;
+  }
+  nav ul li a {
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: bolder;
   }
   .wellcome-block-top {
     font-size: 1.25rem;
@@ -125,6 +132,7 @@
     grid-template-columns: 30% 20% 30% 20%;
   }
   .product-box {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -148,8 +156,12 @@
   .row-col {
     flex-direction: column;
   }
+  .width-80 {
+    width: 95%;
+    text-align: left;
+  }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   .pager {
     display: none;
   }
@@ -160,13 +172,29 @@
   }
   header nav {
     justify-content: space-between;
+    flex-wrap: nowrap;
     height: 100px;
   }
 
-  header span a {
-    margin: 10px;
-    color: #272a31;
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  header ul li a {
+    font-size: 1rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+  }
+
+  header nav li a {
+    margin: 5px;
+    line-height: 2rem;
+    font-size: 1rem;
     font-weight: bolder;
+    text-transform: uppercase;
     text-decoration: none;
   }
   .lg {
@@ -224,6 +252,10 @@
     border: 1px solid black;
     box-shadow: 0 10px 10px grey;
   }
+  .width-80 {
+    width: 80%;
+    text-align: left;
+  }
 }
 
 html,
@@ -236,6 +268,13 @@ footer {
   padding: 0;
   margin: 0;
 }
+p {
+  font-size: 1rem;
+  transform: scale(1, 1.1);
+  font-weight: 800px;
+  line-height: 1.2rem;
+  text-justify: auto;
+}
 main {
   background-image: url(/images/background1.png);
 }
@@ -245,8 +284,9 @@ main * {
 ul li * {
   margin: 5px;
   color: inherit;
-  font: 1rem;
+  font: 0.85rem;
   font-weight: bold;
+  border-radius: 5px;
   text-decoration: none;
 }
 .show-image {
@@ -254,10 +294,6 @@ ul li * {
 }
 .default-content {
   height: 100vh;
-}
-.width-80 {
-  width: 80%;
-  text-align: left;
 }
 
 .font-effect {
@@ -391,6 +427,13 @@ col {
 .partners {
   font-size: 1.5rem;
   font-weight: bolder;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .footer-paddings {
@@ -415,10 +458,10 @@ nav ul li:focus,
 nav ul li:active,
 nav ul li:visited {
   box-sizing: border-box;
-  color: #ec5242;
+  color: white;
   font-weight: bolder;
-  background-color: white;
-  border: 1px solid #ec5242;
+  background-color: #ec5242;
+  border: 1px solid grey;
 }
 .shadow {
   box-shadow: 10px 10px 8px #d3d3d3;
@@ -476,14 +519,7 @@ nav ul li:visited {
   background-color: #d3d3d3;
   color: #272a31;
 }
-#about {
-  width: 60%;
-  margin: auto;
-  background-color: white;
-}
-#about h1 {
-  font-size: 2rem;
-}
+
 .margins {
   margin: 20px 10%;
   padding: 20px;
