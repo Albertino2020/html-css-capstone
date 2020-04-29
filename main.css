@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   src: url("fonts/cocogoose-webfont.woff2") format("woff2"), url("fonts/cocogoose-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -25,9 +25,7 @@
     padding: 0;
   }
 
-  .media:hover .pager,
-  .media:active .pager,
-  .media:focus .pager {
+  .media:hover .pager, .media:active .pager, .media:focus .pager {
     display: none;
   }
 
@@ -35,9 +33,7 @@
     display: none;
   }
 
-  .media:hover .expand,
-  .media:active .expand,
-  .media:focus .expand {
+  .media:hover .expand, .media:active .expand, .media:focus .expand {
     top: 0;
     left: 0;
     margin: 0;
@@ -61,15 +57,6 @@
 
   .paddings {
     padding: 20px;
-  }
-
-  .pager {
-    font-size: 4rem;
-    font-weight: bolder;
-    background: transparent;
-    color: white;
-    margin: 20px auto 0 20px;
-    padding: 0;
   }
 
   nav ul {
@@ -108,7 +95,23 @@
 
   .product-box {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #5b5b5e;
+    border: 1px solid #272a31;
+    font-size: 1rem;
+    text-justify: center;
+    margin: 0;
     width: 100%;
+  }
+
+  .product-box h3 {
+    padding: auto;
+    font-size: 1rem;
+    margin: 0;
   }
 
   .product-box img {
@@ -118,6 +121,7 @@
   .product-box h3 {
     width: 30%;
     margin: auto 20px;
+    font-weight: bolder;
   }
 
   .member {
@@ -148,7 +152,6 @@
   .w-b {
     background-color: white;
   }
-
   #mob {
     padding: 20px;
   }
@@ -161,31 +164,6 @@
     grid-template-columns: 30% 20% 30% 20%;
   }
 
-  .product-box {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    background-color: #5b5b5e;
-    border: 1px solid #272a31;
-    font-size: 1rem;
-    text-justify: center;
-    margin: 0;
-  }
-
-  .product-box h3 {
-    padding: auto;
-    font-size: 1rem;
-    margin: 0;
-  }
-
-  .product-box img {
-    margin: 0;
-    padding: 0;
-  }
-
   .row-col {
     flex-direction: column;
   }
@@ -194,6 +172,7 @@
     width: 95%;
     text-align: left;
   }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -222,7 +201,6 @@
   }
 
   header ul li a {
-    font-size: 1rem;
     line-height: 3rem;
     font-size: 1.2rem;
   }
@@ -239,7 +217,7 @@
   .lg {
     width: 300px;
     height: 30px;
-    font-family: "Cocogoose";
+    font-family: "Cocogoose", sans-serif;
     border: 2px solid #d3d3d3;
     background-color: white;
     border-radius: 10px;
@@ -248,14 +226,14 @@
   }
 
   .lg .left {
-    font-family: "Cocogoose";
+    font-family: "Cocogoose", sans-serif;
     font-size: 1.25rem;
     color: #ec5242;
     margin: auto;
   }
 
   .lg .right {
-    font-family: "Cocogoose";
+    font-family: "Cocogoose", sans-serif;
     color: #272a31;
     font-size: 1.1rem;
     margin: auto;
@@ -285,6 +263,10 @@
     height: 50px;
   }
 
+  .product-box p {
+    font-weight: bolder;
+  }
+
   .form-grid {
     display: grid;
     margin: 40px auto;
@@ -299,13 +281,10 @@
     width: 80%;
     text-align: left;
   }
+  
 }
 
-html,
-body,
-header,
-main,
-footer {
+html, body, header, main, footer {
   box-sizing: border-box;
   width: 100%;
   padding: 0;
@@ -347,16 +326,7 @@ ul li * {
 
 .font-effect {
   text-transform: uppercase;
-  background: linear-gradient(
-    to right top,
-    #f18d57 0%,
-    #ec5242 25%,
-    #b22517 40%,
-    #f18d57 50%,
-    #b22517 60%,
-    #f18d57 70%,
-    #ec5242 80%
-  );
+  background: linear-gradient( to right top, #f18d57 0%, #ec5242 25%, #b22517 40%, #f18d57 50%, #b22517 60%, #f18d57 70%, #ec5242 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -moz-background-clip: text;
@@ -472,7 +442,7 @@ col {
 }
 
 .coco {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
 }
 
 .lato {
@@ -508,9 +478,16 @@ col {
   padding-bottom: 20px;
 }
 
-.split span,
-.split div {
+.split span, .split div {
   margin: 10px;
+}
+
+.form-grid div, .form-grid h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 header .expand div {
@@ -525,10 +502,7 @@ header .expand div a {
   text-decoration: none;
 }
 
-nav ul li:hover,
-nav ul li:focus,
-nav ul li:active,
-nav ul li:visited {
+nav ul li:hover, nav ul li:focus, nav ul li:active, nav ul li:visited {
   box-sizing: border-box;
   color: white;
   font-weight: bolder;
@@ -538,18 +512,6 @@ nav ul li:visited {
 
 .shadow {
   box-shadow: 10px 10px 8px #d3d3d3;
-}
-
-.product-box h3,
-.product-box p {
-  font-weight: bolder;
-}
-
-.product-box:hover,
-.product-box:active,
-.product-box:focus {
-  border: 2px solid white;
-  text-decoration: none;
 }
 
 .uppercase {
@@ -669,23 +631,12 @@ nav ul li:visited {
   padding: auto;
 }
 
-.form-grid div,
-.form-grid h2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
 .form-grid .cell {
   padding: 10px;
   background-color: whitesmoke;
 }
 
-.form-grid .cell:hover,
-.form-grid .cell:active,
-.form-grid .cell:focus {
+.form-grid .cell:hover, .form-grid .cell:active, .form-grid .cell:focus {
   border: 1px solid black;
   background-color: rgb(250, 217, 217);
   text-decoration: none;
@@ -697,4 +648,9 @@ nav ul li:visited {
 
 .form-grid button {
   margin-right: 0;
+}
+
+.product-box:hover, .product-box:active, .product-box:focus {
+  border: 2px solid white;
+  text-decoration: none;
 }
