@@ -115,17 +115,14 @@
   .product-box h3 {
     padding: auto;
     font-size: 1rem;
-    margin: 0;
+    margin: 0;    
+    width: 30%;
+    margin: auto 20px;
+    font-weight: bolder;
   }
 
   .product-box img {
     width: 20%;
-  }
-
-  .product-box h3 {
-    width: 30%;
-    margin: auto 20px;
-    font-weight: bolder;
   }
 
   .member {
@@ -664,5 +661,4 @@ nav ul li:visited {
 .product-box:active,
 .product-box:focus {
   border: 2px solid white;
-  text-decoration: none;
-}
+  text-decoration: none;}
