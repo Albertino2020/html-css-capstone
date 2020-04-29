@@ -172,7 +172,6 @@
     width: 95%;
     text-align: left;
   }
-
 }
 
 @media screen and (min-width: 1025px) {
@@ -281,7 +280,6 @@
     width: 80%;
     text-align: left;
   }
-  
 }
 
 html, body, header, main, footer {
@@ -326,7 +324,7 @@ ul li * {
 
 .font-effect {
   text-transform: uppercase;
-  background: linear-gradient( to right top, #f18d57 0%, #ec5242 25%, #b22517 40%, #f18d57 50%, #b22517 60%, #f18d57 70%, #ec5242 80%);
+  background: linear-gradient(to right top, #f18d57 0%, #ec5242 25%, #b22517 40%, #f18d57 50%, #b22517 60%, #f18d57 70%, #ec5242 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -moz-background-clip: text;
