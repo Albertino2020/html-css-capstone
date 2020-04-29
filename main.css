@@ -114,11 +114,11 @@
 
   .product-box h3 {
     padding: auto;
-    font-size: 1rem;
-    margin: 0;    
+    font-size: 1rem;   
     width: 30%;
     margin: auto 20px;
     font-weight: bolder;
+
   }
 
   .product-box img {
@@ -661,4 +661,5 @@ nav ul li:visited {
 .product-box:active,
 .product-box:focus {
   border: 2px solid white;
-  text-decoration: none;}
+  text-decoration: none;
+}
