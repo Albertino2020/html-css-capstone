@@ -88,6 +88,7 @@
 
   .wellcome-main-block {
     font-size: 2.5rem;
+    font-weight: bolder;
     padding: 20px auto;
     margin: 0;
   }
@@ -233,7 +234,7 @@
 
   .wellcome-main-block {
     font-size: 5rem;
-    font-weight: bolder;
+    font-weight: bolder !important;
     margin: 0;
   }
 
