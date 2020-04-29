@@ -106,7 +106,7 @@
     padding: 5px;
     background-color: #5b5b5e;
     border: 1px solid #272a31;
-    font-size: 1rem;
+    font-size: 0.85rem;
     text-justify: center;
     margin: 0;
     width: 100%;
@@ -114,7 +114,7 @@
 
   .product-box h3 {
     padding: auto;
-    font-size: 1rem;
+    font-size: 0.85rem;
     width: 30%;
     margin: auto 20px;
     font-weight: bolder;
@@ -142,11 +142,7 @@
 
   .lg span {
     font-size: 0.85rem;
-  }
-
-  .abt {
-    font-size: 1.25rem;
-    margin: 20px;
+    font-weight: bolder;
   }
 
   .w-b {
@@ -213,7 +209,7 @@
   .lg {
     width: 300px;
     height: 30px;
-    font-family: "Cocogoose", sans-serif;
+    font-family: "Cocogoose" !important;
     border: 2px solid #d3d3d3;
     background-color: white;
     border-radius: 10px;
@@ -222,8 +218,9 @@
   }
 
   .lg .left {
-    font-family: "Cocogoose", sans-serif;
+    font-family: "Cocogoose" !important;
     font-size: 1.25rem;
+    font-weight:bolder;
     color: #ec5242;
     margin: auto;
   }
@@ -441,7 +438,7 @@ col {
 }
 
 .coco {
-  font-family: "Cocogoose", sans-serif;
+  font-family: 'Cocogoose' !important;
 }
 
 .lato {
