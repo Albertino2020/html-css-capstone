@@ -25,7 +25,9 @@
     padding: 0;
   }
 
-  .media:hover .pager, .media:active .pager, .media:focus .pager {
+  .media:hover .pager,
+  .media:active .pager,
+  .media:focus .pager {
     display: none;
   }
 
@@ -33,7 +35,9 @@
     display: none;
   }
 
-  .media:hover .expand, .media:active .expand, .media:focus .expand {
+  .media:hover .expand,
+  .media:active .expand,
+  .media:focus .expand {
     top: 0;
     left: 0;
     margin: 0;
@@ -151,9 +155,6 @@
 
   .w-b {
     background-color: white;
-  }
-  #mob {
-    padding: 20px;
   }
 
   .form-grid {
@@ -282,7 +283,11 @@
   }
 }
 
-html, body, header, main, footer {
+html,
+body,
+header,
+main,
+footer {
   box-sizing: border-box;
   width: 100%;
   padding: 0;
@@ -476,11 +481,13 @@ col {
   padding-bottom: 20px;
 }
 
-.split span, .split div {
+.split span,
+.split div {
   margin: 10px;
 }
 
-.form-grid div, .form-grid h2 {
+.form-grid div,
+.form-grid h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -500,7 +507,10 @@ header .expand div a {
   text-decoration: none;
 }
 
-nav ul li:hover, nav ul li:focus, nav ul li:active, nav ul li:visited {
+nav ul li:hover,
+nav ul li:focus,
+nav ul li:active,
+nav ul li:visited {
   box-sizing: border-box;
   color: white;
   font-weight: bolder;
@@ -634,7 +644,9 @@ nav ul li:hover, nav ul li:focus, nav ul li:active, nav ul li:visited {
   background-color: whitesmoke;
 }
 
-.form-grid .cell:hover, .form-grid .cell:active, .form-grid .cell:focus {
+.form-grid .cell:hover,
+.form-grid .cell:active,
+.form-grid .cell:focus {
   border: 1px solid black;
   background-color: rgb(250, 217, 217);
   text-decoration: none;
@@ -648,7 +660,9 @@ nav ul li:hover, nav ul li:focus, nav ul li:active, nav ul li:visited {
   margin-right: 0;
 }
 
-.product-box:hover, .product-box:active, .product-box:focus {
+.product-box:hover,
+.product-box:active,
+.product-box:focus {
   border: 2px solid white;
   text-decoration: none;
 }
