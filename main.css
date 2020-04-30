@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1024px) {
   .media {
-    visibility: visible;
+    display: block;
     box-sizing: border-box;
     background-image: url(/images/blockchain.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -17,7 +17,7 @@
   }
 
   .pager {
-    visibility: visible;
+    display: block;
     font-size: 4rem;
     font-weight: bolder;
     background: transparent;
