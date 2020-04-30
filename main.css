@@ -9,8 +9,8 @@
   .media {
     visibility: visible;
     box-sizing: border-box;
-    background-image: url(/images/blockchain.jpg);
-    object-fit: fill;
+    background-image: url(/images/blockchain.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@
   .media:hover .expand,
   .media:active .expand,
   .media:focus .expand {
-    top:0;
+    top: 0;
     left: 0;
     margin: 0;
     display: block;
