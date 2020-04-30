@@ -9,7 +9,7 @@
   .media {
     display: block;
     box-sizing: border-box;
-    background-image: url(/images/blockchain.jpg) no-repeat center center fixed;
+    background-image: url(/images/blockchain.jpg);
     background-size: cover;
     width: 100%;
     margin: 0;
