@@ -21,7 +21,7 @@ Regarding the layout, a greater approximation to the model presented was sought,
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Albertino2020/html-css-capstone/3360c810e9b70ec2e76bb565b2ad861b1cac8be8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/html-css-capstone/e7fb625e3884da10e0778d2fd676098449210cce/index.html)
 
 
 ## Authors
