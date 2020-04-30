@@ -10,7 +10,7 @@
     display: block;
     box-sizing: border-box;
     background-image: url(/images/blockchain.jpg);
-    background-size: cover;
+    background-clip:border-box;
     width: 100%;
     margin: 0;
     padding: 0;
