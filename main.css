@@ -10,6 +10,7 @@
     display: block;
     box-sizing: border-box;
     background-image: url(/images/blockchain.jpg);
+    background-color: #d3d3d3;
     background-clip:border-box;
     width: 100%;
     margin: 0;
@@ -21,7 +22,7 @@
     font-size: 4rem;
     font-weight: bolder;
     background: transparent;
-    color: whitesmoke;
+    color: grey;
     margin: 0 auto 0 20px;
     padding: 0;
   }
