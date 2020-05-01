@@ -1,0 +1,669 @@
+@font-face {
+  font-family: "Cocogoose", sans-serif;
+  src: url("fonts/cocogoose-webfont.woff2") format("woff2"), url("fonts/cocogoose-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .media {
+    display: block;
+    box-sizing: border-box;
+    background-image: url(/images/blockchain.jpg);
+    background-color: rgb(252, 247, 247);
+    background-clip: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pager {
+    display: block;
+    font-size: 4rem;
+    font-weight: bolder;
+    background: transparent;
+    color: grey;
+    margin: 0 auto 0 20px;
+    padding: 0;
+  }
+
+  .expand {
+    display: none;
+  }
+
+  .media:hover .expand,
+  .media:active .expand,
+  .media:focus .expand {
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: block;
+  }
+
+  .xs {
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: none;
+  }
+
+  nav .xm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .paddings {
+    padding: 20px;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+
+  nav ul li {
+    border: 1px solid #5b5b5e;
+    background: whitesmoke;
+    padding: 1.5px;
+    margin: 0;
+  }
+
+  nav ul li a {
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  .wellcome-block-top {
+    font-size: 1.25rem;
+    padding: auto 20px;
+    margin: 0;
+  }
+
+  .wellcome-main-block {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 20px auto;
+    margin: 0;
+  }
+
+  .text-heading {
+    font-size: 1.5rem;
+    margin: auto 30px;
+  }
+
+  .product-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #5b5b5e;
+    border: 1px solid #272a31;
+    font-size: 0.85rem;
+    text-justify: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .product-box h3 {
+    padding: auto;
+    font-size: 0.85rem;
+    width: 30%;
+    margin: auto 20px;
+    font-weight: bolder;
+  }
+
+  .product-box img {
+    width: 20%;
+  }
+
+  .member {
+    box-sizing: border-box;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20px;
+  }
+
+  .lg {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  .lg span {
+    font-size: 0.85rem;
+    font-weight: bolder;
+  }
+
+  .w-b {
+    background-color: white;
+  }
+
+  .form-grid {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 20% 30% 20%;
+  }
+
+  .row-col {
+    flex-direction: column;
+  }
+
+  .width-80 {
+    width: 95%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .pager {
+    display: none;
+  }
+
+  .paddings {
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  header nav {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  header ul li a {
+    line-height: 3rem;
+    font-size: 1.2rem;
+  }
+
+  header nav li a {
+    margin: 5px;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .lg {
+    width: 300px;
+    height: 30px;
+    font-family: "Cocogoose", sans-serif;
+    border: 2px solid #d3d3d3;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+
+  .lg .left {
+    font-family: "Cocogoose", sans-serif;
+    font-size: 1.25rem;
+    color: #ec5242;
+    margin: auto;
+  }
+
+  .lg .right {
+    font-family: "Cocogoose", sans-serif;
+    color: #272a31;
+    font-size: 1.1rem;
+    margin: auto;
+  }
+
+  .wellcome-main-block {
+    font-size: 5rem;
+    font-weight: bolder !important;
+    margin: 0;
+  }
+
+  .row-col {
+    flex-direction: row;
+  }
+
+  .product-box {
+    box-sizing: border-box;
+    width: 20%;
+    background-color: #5b5b5e;
+    margin: 20px 1px;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .product-box img {
+    width: 50%;
+    height: 50px;
+  }
+
+  .product-box p {
+    font-weight: bolder;
+  }
+
+  .form-grid {
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3rem 3rem repeat(5, 1fr);
+    grid-gap: 2px;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px grey;
+  }
+
+  .width-80 {
+    width: 80%;
+    text-align: left;
+  }
+}
+
+html,
+body,
+header,
+main,
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  transform: scale(1, 1.1);
+  font-weight: 800px;
+  line-height: 1.2rem;
+  text-justify: auto;
+}
+
+main {
+  background-image: url(/images/background1.png);
+}
+
+main * {
+  background-image: none;
+}
+
+ul li * {
+  margin: 5px;
+  color: inherit;
+  font: 0.85rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.lg * {
+  font-weight: bolder !important;
+  transform: scale(1, 2);
+}
+
+.show-image {
+  background-image: inherit;
+}
+
+.default-content {
+  height: 100vh;
+}
+
+.font-effect {
+  text-transform: uppercase;
+  background: linear-gradient(to right top, #f18d57 0%, #ec5242 25%, #b22517 40%, #f18d57 50%, #b22517 60%, #f18d57 70%, #ec5242 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wellcome-block-top {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.text-block {
+  font-size: 1rem;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.text-heading {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.zero {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 0.5rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-flow: wrap;
+}
+
+.nowrap {
+  flex-flow: nowrap;
+}
+
+.horizontal-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.no-decoration {
+  text-decoration: none;
+  list-style: none;
+}
+
+.vertical-center {
+  align-items: center;
+  align-content: center;
+}
+
+.background-dark {
+  background-color: #272a31;
+  color: white;
+}
+
+.background-light {
+  background-color: white;
+}
+
+.background-red {
+  background-color: #ec5242;
+}
+
+.dark {
+  color: #272a31;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+.white {
+  color: white;
+}
+
+.coco {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-size-14 {
+  font-size: 0.85rem;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.span-margins {
+  margin: 10px;
+}
+
+.partners {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer-paddings {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.split span,
+.split div {
+  margin: 10px;
+}
+
+.form-grid div,
+.form-grid h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+header .expand div {
+  justify-content: flex-end;
+}
+
+header .expand div a {
+  margin: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+nav ul li:hover,
+nav ul li:focus,
+nav ul li:active,
+nav ul li:visited {
+  box-sizing: border-box;
+  color: white;
+  font-weight: bolder;
+  background-color: #ec5242;
+  border: 1px solid grey;
+}
+
+.shadow {
+  box-shadow: 10px 10px 8px #d3d3d3;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.none {
+  text-decoration: none;
+}
+
+.none:visited {
+  text-decoration: none;
+}
+
+.member {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  box-shadow: -35px -35px 0 -20px #d3d3d3;
+}
+
+.button-wrapper {
+  justify-content: center;
+}
+
+.button {
+  transition-duration: 0.4s;
+  width: 200px;
+  height: 50px;
+  padding: auto;
+  font-size: 1rem;
+  margin: 50px auto 100px auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.button:hover {
+  background-color: #d3d3d3;
+  color: #272a31;
+}
+
+.margins {
+  margin: 20px 10%;
+  padding: 20px;
+}
+
+.auto {
+  margin: auto;
+}
+
+.white-back {
+  background-color: white;
+}
+
+.maker-taker {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  margin: auto;
+  box-shadow: 0 0 10px 10px rgb(167, 165, 165);
+}
+
+.grid-header {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.grid-cell {
+  border: 1px solid #d3d3d3;
+  padding: 5px;
+}
+
+.description {
+  width: 50%;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 0 grey;
+}
+
+.arrow-box {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  margin: 20px auto;
+  transform: rotate(45deg);
+  text-decoration: none;
+}
+
+.rotate {
+  transform: rotate(-45deg);
+}
+
+.deposit-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+}
+
+.form-grid span {
+  padding: 10px 0;
+  font-weight: bolder;
+}
+
+.form-grid .product-box {
+  width: 80%;
+  margin: 5px auto;
+  padding: auto;
+}
+
+.form-grid .cell {
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.form-grid .cell:hover,
+.form-grid .cell:active,
+.form-grid .cell:focus {
+  border: 1px solid black;
+  background-color: rgb(250, 217, 217);
+  text-decoration: none;
+}
+
+.form-grid .product-box img {
+  width: 40%;
+}
+
+.form-grid button {
+  margin-right: 0;
+}
+
+.product-box:hover,
+.product-box:active,
+.product-box:focus {
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+hr {
+  color: #ec5242;
+  width: 50px;
+}
+
+/* file ends here */
